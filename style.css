@@ -1,0 +1,17 @@
+.view {
+	background-image: url(chain.jpeg);
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #FF6600;
+	color: #000;
+	text-shadow: 4px 4px 6px #C0C0C0,
+				 3px 3px 4px #C0C0C0,
+				 2px 2px 2px #C0C0C0;
+}
+
+.container {
+	background-color: #ff9900;
+	opacity: .95;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset-"UTF-8">
+	<title>Slang Man</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<div class="view">
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Don't Hang the Slang Man</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8"></div>
+		</div>
+	</div>
+<div class="container">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Do you jive, turkey?</h3>
+		</div>
+		<div class="panel-body">
+			<h2 id="wordToGuess">-----------</h2>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Digits Selected:</h3>
+		</div>
+		<div class="panel-body">
+			Letters chosen - <span id="wrongGuesses"></span>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Go's Left:</h3>
+		</div>
+		<div class="panel-body">
+			You have this many go's - <span id="guessesLeft">9</span>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Ribbon's Taken:</h3>
+		</div>
+		<div class="panel-body">
+			Body count - <span id="winCount">0</span>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Winter is coming:</h3>
+		</div>
+		<div class="panel-body">
+			YOU'VE LOST THIS MANY TIMES - <span id="lossCount">0</span>
+		</div>
+	</div>
+</div>
+<!-- Link to Javascript -->
+	<script src="logic.js"></script>
+</div>
+</body>
+</html>
